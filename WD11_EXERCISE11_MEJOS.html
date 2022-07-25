@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMEFLIX</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style11.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Splash&display=swap" rel="stylesheet">
+    
+
+
+</head>
+<body  class="bg-dark">
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-black fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="WD11_EXERCISE11_MEJOS.html">
+                <h1 class="text-menu" id="navbar-brand">
+                    <span id="letter-a">A</span><span class="letter-n text-light">N</span><span class="text-light">IME</span>FL<span class="letter-i">I</span><span id="letter-x">X</span> <i class="bi bi-display"></i>
+                </h1>
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarExample">
+                <span class="navbar-toggler-icon bg-menu"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarExample">
+                <ul class="navbar-nav mx-auto text-menu h1">
+                    <li class="nav-item text-menu">
+                        <a class="nav-link text-menu" href="WD11_EXERCISE11_MEJOS.html">HOME</a>
+                    </li>
+                    <li class="nav-item text-menu">
+                        <a class="nav-link text-menu" href="WD11_EXERCISE11_MEJOS.html#top5-anime">Top 5 Anime</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-menu show" href="#" id="dropDownSample" data-bs-toggle="dropdown">
+                            List
+                        </a>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="dropDownSample">
+                            <li class="list-item">
+                                <a class="dropdown-item text-menu h1" href="animenaruto.html">Naruto</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="dropdown-item text-menu h1" href="animehunterx.html">Hunter X Hunter</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="dropdown-item text-menu h1" href="animedeathnote.html">Death Note</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="dropdown-item text-menu h1" href="animehaikyu.html">Haikyu</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="dropdown-item text-menu h1" href="animecodegeass.html">Code Geass</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <form class="input-group search-top" style="max-width:200px">
+                <input type="text" class="form-control bg-dark text-light" placeholder="Search...">
+                
+                <button class="btn" id="btn-danger"><i class="bi bi-search"></i></button>
+            </form>
+            
+        </div>
+    </nav>
+    <br><br><br>
+    <!-- End of Navigation Bar -->
+    
+    
+
+    <!-- Carousel -->
+    <div id="carouselSlide" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button data-bs-target="#carouselSlide" data-bs-slide-to="0" class="active"></button>
+            <button data-bs-target="#carouselSlide" data-bs-slide-to="1"></button>
+            <button data-bs-target="#carouselSlide" data-bs-slide-to="2"></button>
+            <button data-bs-target="#carouselSlide" data-bs-slide-to="3"></button>
+            <button data-bs-target="#carouselSlide" data-bs-slide-to="4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="naruto01.png" alt="" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="hxh01.png" alt="" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="deathnote01.png" alt="" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="haikyu01.png" alt="" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="codegeass01.png" alt="" class="d-block w-100">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselSlide" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Static Text in Carousel -->
+    <div class="main-text">
+        <div class="col-md-12 text-center">
+            <h1 class="text-static shadow-lg">
+                Unlimited movies, Anime <br> TV series, and more.
+            </h1>
+            <br><br>
+            <h3>
+                Ready to watch? Enter your Email Address
+            </h3>
+            <form class="container input-group">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    <input type="email" class="form-control bg-light form-control-lg" placeholder="Email">
+                    <button class="btn bg-danger text-light" id="btn-danger">Get Started</button>
+                </div>
+                <div class="col-lg-4"></div>
+            </form>
+        </div>
+    </div>
+    <!-- End of Static Text in Carousel -->
+    <div id="top5-anime" style="height: 100px;"></div>
+    <!-- End of Carousel -->
+
+    <!-- Bootstrap Grid Anime List -->
+    <h1 class="container text-light text-h1">TOP 5 ANIME</h1>
+    <br><br>
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+           <div class="row">
+                <div class="col-md-4 mb-5">
+                    <div class="card px-lg-5 bg-black border-none">    
+                        <img src="naruto03.jpg" class="card-img-top">
+                        <div class="card-body bg-dark">
+                            <h3 class="card-title text-light">Naruto</h3>
+                            <p class="card-text text-light">
+                                Naruto: Shippuden is an anime series mainly adapted from Part II of Masashi Kishimoto's original manga series, with exactly 500 episodes. It is set two and a half years after the original series in the Naruto universe, following the ninja teenager Naruto Uzumaki and his allies.
+                            </p>
+                            <br><br>
+                            <a href="animenaruto.html" class="btn text-light stretched-link" id="btn-danger">More Details <i class="bi bi-info-square"></i></a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card px-lg-5 bg-black border-none">    
+                        <img src="hxh03.jpg" class="card-img-top">
+                        <div class="card-body bg-dark">
+                            <h3 class="card-title text-light">Hunter X Hunter</h3>
+                            <p class="card-text text-light">
+                                Hunter × Hunter (pronounced "hunter hunter") is a Japanese manga series written and illustrated by Yoshihiro Togashi. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since March 1998, although the manga has frequently gone on extended hiatuses since 2006.
+                            </p>
+                            <br><br>
+                            <a href="animehunterx.html" class="btn text-light stretched-link" id="btn-danger">More Details <i class="bi bi-info-square"></i></a>
+                        </div>   
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card px-lg-5 bg-black border-none">    
+                        <img src="deathnote03.jpg" class="card-img-top">
+                        <div class="card-body bg-dark">
+                            <h3 class="card-title text-light">Death Note</h3>
+                            <p class="card-text text-light">
+                                Death Note (stylized in all caps) is a Japanese manga series written by Tsugumi Ohba and illustrated by Takeshi Obata. The story follows Light Yagami, a teen genius who discovers a mysterious notebook: the "Death Note", which belonged to the Shinigami Ryuk, and grants the user the supernatural ability to kill anyone whose name is written in its pages.
+                            </p>
+                            <a href="animedeathnote.html" class="btn text-light stretched-link" id="btn-danger">More Details <i class="bi bi-info-square"></i></a>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 col2pad">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+           <div class="row">
+            <div class="col-md-2"></div>
+                <div class="col-md-4 mb-5">
+                    <div class="card px-lg-5 bg-black border-none">    
+                        <img src="haikyu03.jpg" class="card-img-top">
+                        <div class="card-body bg-dark">
+                            <h3 class="card-title text-light">Haikyu</h3>
+                            <p class="card-text text-light">
+                                Haikyu!! (ハイキュー!!, Haikyū!!, from the kanji 排球 "volleyball") is a Japanese manga series written and illustrated by Haruichi Furudate. The story follows Shoyo Hinata, a boy determined to become a great volleyball player despite his small stature. It was serialized in Shueisha's Weekly Shōnen Jump from February 2012 to July 2020, with its chapters collected in forty-five tankōbon volumes.
+                            </p>
+                            <br><br><br>
+                            <a href="animehaikyu.html" class="btn text-light stretched-link" id="btn-danger">More Details <i class="bi bi-info-square"></i></a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card px-lg-5 bg-black border-none">    
+                        <img src="codegeass03.jpg" class="card-img-top">
+                        <div class="card-body bg-dark">
+                            <h3 class="card-title text-light">Code Geass</h3>
+                            <p class="card-text text-light">
+                                Code Geass: Lelouch of the Rebellion (Japanese: コードギアス 反逆のルルーシュ, Hepburn: Kōdo Giasu: Hangyaku no Rurūshu), often referred to simply as Code Geass, is a Japanese anime television series produced by Sunrise. It was directed by Gorō Taniguchi and written by Ichirō Ōkouchi, with original character designs by Clamp. Set in an alternate timeline, it follows the exiled prince Lelouch vi Britannia, who obtains the "power of absolute obedience" from a mysterious woman named C.C.
+                            </p>
+                            <a href="animecodegeass.html" class="btn text-light stretched-link" id="btn-danger">More Details <i class="bi bi-info-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col2pad">
+        </div>
+    </div>
+    <!-- End of Bootstrap Grid Anime List -->
+
+    <!-- Back Button -->
+    <div class="container fixed-bottom mb-5">
+        <form>
+            <h1 class="bi bi-arrow-left-square btn bg-danger text-light" onclick="history.back()">  Back
+            </h1>
+        </form>
+    </div>
+    <!-- End of Back Button -->
+    
+    <!-- Search Button Bottom -->
+    <div class="d-flex justify-content-end mb-3 mx-3">
+        <form class="input-group search-bottom" style="max-width:200px">
+            <input type="text" class="form-control bg-dark text-light" placeholder="Search...">
+            
+            <button class="btn" id="btn-red"><i class="bi bi-search"></i></button>
+        </form>
+    </div>
+    <!-- End of Search Button Bottom -->
+
+    <!-- Footer -->
+    <div class="navbar navbar-expand-lg bg-black bottom-container d-flex bg-dark justify-content-evenly">
+            <a class="navbar-brand" href="WD11_EXERCISE11_MEJOS.html">
+            <h1 class="text-danger">
+                <i class="bi bi-display"></i>
+            </h1>
+            </a>
+        <div>
+            <h4 class="text-light"><i class="bi bi-c-circle"></i>Copyright 2022</h4>
+        </div>
+        <div class="h1">
+            <a href="https://facebook.com/manjyomethunder" target="_blank" title="Facebook"> <i class="bi bi-facebook text-danger"></i></a>
+            <a href="https://instagram.com/manjyomethunder" target="_blank" title="Instagram"> <i class="bi bi-instagram text-danger"></i></a>
+            <a href="https://twitter.com/manjyomethunder" target="_blank" title="Twitter"> <i class="bi bi-twitter text-danger"></i></a>
+        </div>
+    </div>
+    <!-- Footer -->
+    
+</body>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="bootstrap.bundle.js"></script>
+</html>
